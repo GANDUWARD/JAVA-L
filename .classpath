@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="0902作业/src"/>
+	<classpathentry kind="src" path="0902dusha/src"/>
+	<classpathentry kind="src" path="0902zuo/src"/>
+	<classpathentry kind="src" path="0908图书/src"/>
+	<classpathentry kind="src" path="0918/src"/>
+	<classpathentry kind="src" path="0928/src"/>
+	<classpathentry kind="src" path="1001/src"/>
+	<classpathentry kind="src" path="1001a/src"/>
+	<classpathentry kind="src" path="1001b/src"/>
+	<classpathentry kind="src" path="1001c/src"/>
+	<classpathentry kind="src" path="1002/src"/>
+	<classpathentry kind="src" path="1013/src"/>
+	<classpathentry kind="src" path="1013B/src"/>
+	<classpathentry kind="src" path="1014a/src"/>
+	<classpathentry kind="src" path="1014b/src"/>
+	<classpathentry kind="src" path="1014c/src"/>
+	<classpathentry kind="src" path="1014d/src"/>
+	<classpathentry kind="src" path="1014e/src"/>
+	<classpathentry kind="src" path="1015/src"/>
+	<classpathentry kind="src" path="1017流/src"/>
+	<classpathentry kind="src" path="1020/src"/>
+	<classpathentry kind="src" path="1026/src"/>
+	<classpathentry kind="src" path="1104/src"/>
+	<classpathentry kind="src" path="1105/src"/>
+	<classpathentry kind="src" path="迈克耳孙干涉实验计算/src"/>
+	<classpathentry kind="src" path="helloworld/src"/>
+	<classpathentry kind="src" path="lecture3/src"/>
+	<classpathentry kind="src" path="LoginGUI/src"/>
+	<classpathentry kind="src" path="shuzu/src"/>
+	<classpathentry kind="lib" path="1104/lib/mysql-connector-j-8.0.31.jar"/>
+	<classpathentry kind="output" path="0902dusha/bin"/>
+</classpath>

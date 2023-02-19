@@ -1,0 +1,107 @@
+package 上机考试;
+
+import java.awt.GridLayout;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextArea;
+
+/*计算2102 120211080505 林新烨 B卷*/
+class Boy {
+	private int number;
+	private String name;
+	private String sex;
+	public Boy(int n,String na,String s) {
+		// TODO 自动生成的构造函数存根
+		this.number=n;
+		this.name=na;
+		this.sex=s;
+	}
+}
+class Girl {
+	private int number;
+	private String name;
+	private String sex;
+	public Girl(int n,String na,String s) {
+		// TODO 自动生成的构造函数存根
+		this.number=n;
+		this.name=na;
+		this.sex=s;
+	}
+}
+public class Sys {
+    private Boy[] alBoys;
+    private Girl[] alGirls;
+    JFrame frame;
+    JLabel l1,l2,l3;
+    JTextArea t1,t2,t3;
+    JButton b1,b2,b3;
+    JPanel p1,p2,pp1,pp2,pp;
+     public Sys() {
+		// TODO 自动生成的构造函数存根
+    	 this.alBoys=new Boy[8];
+    	 this.alGirls=new Girl[8];
+    	 this.alBoys[0]=new Boy(1, "张晓刚", "男");
+    	 this.alBoys[1]=new Boy(2, "段立明", "男");
+    	 this.alBoys[2]=new Boy(3, "王强", "男");
+    	 this.alBoys[3]=new Boy(4, "赵思力", "男");
+    	 this.alBoys[4]=new Boy(5, "孙晓龙", "男");
+    	 this.alBoys[5]=new Boy(6, "李永刚", "男");
+    	 this.alBoys[6]=new Boy(7, "戴海楠", "男");
+    	 this.alBoys[7]=new Boy(8, "于永","男");
+    	 this.alGirls[0]=new Girl(9,"李敏","女");
+    	 this.alGirls[1]=new Girl(10,"钱海燕","女");
+    	 this.alGirls[2]=new Girl(11,"范晓萌","女");
+    	 this.alGirls[3]=new Girl(12,"李思涵","女");
+    	 this.alGirls[4]=new Girl(13,"王若琪","女");
+    	 this.alGirls[5]=new Girl(14,"耿萱然","女");
+    	 this.alGirls[6]=new Girl(15,"侯佳辰","女");
+    	 this.alGirls[7]=new Girl(16,"王路鑫","女");
+    	 this.frame=new JFrame("羽毛球组队");
+    	 this.frame.setLayout(new GridLayout(2,1));
+    	 this.p1=new JPanel();
+    	 this.p2=new JPanel();
+    	 this.pp=new JPanel();
+    	 this.pp1=new JPanel();
+    	 this.pp2=new JPanel();
+    	 this.l1=new JLabel("队员");
+    	 this.l2=new JLabel("一队");
+    	 this.l3=new JLabel("二队");
+    	 this.b1=new JButton("显示队员");
+    	 this.b2=new JButton("开始组队");
+    	 this.b3=new JButton("保存组队");
+    	 this.t1=new JTextArea();
+    	 this.t2=new JTextArea();
+    	 this.t3=new JTextArea();
+    	 t1.setLineWrap(true);
+    	 t2.setLineWrap(true);
+    	 t3.setLineWrap(true);
+    	 this.p1.add(this.l1);
+    	 this.p1.add(this.t1);
+    	 this.p2.setLayout(new GridLayout(2,1));
+    	 this.p2.add(this.pp1);
+    	 this.p2.add(this.pp2);
+    	 this.pp1.add(this.l2);
+    	 this.pp1.add(this.t2);
+    	 this.pp2.add(this.l3);
+    	 this.pp2.add(this.t3);
+    	 this.pp.setLayout(new GridLayout(2,1));
+    	 this.pp.add(this.p2);
+    	 this.pp.add(this.b1);
+    	 this.pp.add(this.b2);
+    	 this.pp.add(this.b3);
+    	 this.frame.add(this.p1);
+    	 this.frame.add(this.pp);
+    	 this.frame.setSize(800,400);
+    	 this.frame.setVisible(true);
+    	 this.frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+    	 
+	}
+}
+class Test{
+	public static void main(String[] args) {
+		new Sys();
+	}
+}
